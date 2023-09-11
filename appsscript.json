@@ -1,0 +1,24 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "urlFetchWhitelist": [
+    "https://api-free.deepl.com/v2/translate"
+  ],
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/presentations.currentonly"
+  ],
+  "addOns": {
+    "common": {
+      "name": "slidesToJapanese",
+      "logoUrl": "https://3.bp.blogspot.com/-a2XrpxvR3L0/VXOUPsoa7UI/AAAAAAAAuI8/iUkVw_GYrJk/s400/hata_kokki_flag_japan.png"
+    },
+    "slides": {
+      "homepageTrigger": {
+        "runFunction": "onHomePage",
+        "enabled": true
+      }
+    }
+  }
+}
